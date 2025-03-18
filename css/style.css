@@ -41,7 +41,6 @@ h1 {
 /* MAIN */
 main {
   background-color: #f6f5f3;
-  /* background-color: #000; */
 }
 /* INTRO MAIN */
 .category {
@@ -75,11 +74,18 @@ main {
   margin: 2rem 0rem;
   display: flex;
   justify-content: space-between;
+  column-gap: 1rem;
 }
 .social .media {
   display: none;
 }
 /* DESCRIPTION */
+.banner {
+  display: none;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
 .description h2 {
   font-size: 2rem;
   font-weight: lighter;
@@ -89,6 +95,9 @@ main {
   border: 1px solid #ff9614;
   margin: 1rem 0rem;
 }
+.content {
+  padding: 1rem 0rem;
+}
 .description img {
   width: 60%;
   display: block;
@@ -97,7 +106,6 @@ main {
 .description p {
   font-size: 1.2rem;
   line-height: 2rem;
-  margin: 1rem 0rem;
 }
 /* FOOTER */
 footer {
@@ -116,4 +124,43 @@ footer {
   padding: 4px;
   text-decoration: underline;
   font-weight: lighter;
+}
+
+@media screen and (min-width: 481px) {
+  .container {
+    max-width: 740px;
+    padding: 2rem;
+  }
+  h1 {
+    text-align: start;
+  }
+  .intro h2 {
+    font-size: 2.5rem;
+  }
+  .intro h2::after {
+    content: " (Dolce Tradizionale)";
+  }
+  .card .card-content li {
+    display: inline-block;
+    min-width: 196px;
+    margin-right: 1rem;
+  }
+  .button {
+    flex-grow: 1;
+  }
+  .banner {
+    display: block;
+  }
+  .content img {
+    float: left;
+    margin-right: 1rem;
+  }
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container.xs {
+    max-width: 700px;
+  }
 }
