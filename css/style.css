@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat, " Helvetica Neue ", sans-serif;";
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 .container {
   max-width: 480px;
@@ -35,8 +35,9 @@ a {
 h1 {
   color: #ff9614;
   text-align: center;
-  font-family: "nerko one";
   padding: 1rem;
+  font-family: "Nerko One", cursive;
+  font-size: 3rem;
 }
 /* MAIN */
 main {
@@ -88,7 +89,7 @@ main {
 
 .description h2 {
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: 500;
 }
 .description .slash {
   width: 5rem;
@@ -141,8 +142,7 @@ footer {
   }
   .card .card-content li {
     display: inline-block;
-    min-width: 196px;
-    margin-right: 1rem;
+    min-width: 211px;
   }
   .button {
     flex-grow: 1;
