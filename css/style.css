@@ -125,8 +125,8 @@ footer {
   text-decoration: underline;
   font-weight: lighter;
 }
-
-@media screen and (min-width: 481px) {
+/* RESPONSIVE TABLET OVER 768PX */
+@media screen and (min-width: 768px) {
   .container {
     max-width: 740px;
     padding: 2rem;
@@ -162,5 +162,15 @@ footer {
   }
   .container.xs {
     max-width: 700px;
+  }
+}
+/* RESPONSIVE DESKTOP OVER 992PX */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    padding: 2rem;
+  }
+  .intro h2 {
+    font-size: 2.5rem;
   }
 }
