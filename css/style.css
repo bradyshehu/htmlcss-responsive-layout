@@ -36,6 +36,7 @@ h1 {
   color: #ff9614;
   text-align: center;
   font-family: "nerko one";
+  padding: 1rem;
 }
 /* MAIN */
 main {
@@ -97,4 +98,22 @@ main {
   font-size: 1.2rem;
   line-height: 2rem;
   margin: 1rem 0rem;
+}
+/* FOOTER */
+footer {
+  background-color: #7c69a4;
+  color: white;
+}
+.container.xs {
+  max-width: 460px;
+  text-align: center;
+}
+.upper-links p {
+  line-height: 2rem;
+}
+.lower-links li {
+  display: inline-block;
+  padding: 4px;
+  text-decoration: underline;
+  font-weight: lighter;
 }
