@@ -7,6 +7,7 @@
 }
 .container {
   max-width: 480px;
+  padding: 1rem;
 }
 ul {
   list-style-type: none;
@@ -24,4 +25,35 @@ h1 {
   color: #ff9614;
   text-align: center;
   font-family: "nerko one";
+}
+/* MAIN */
+main {
+  background-color: #f6f5f3;
+  /* background-color: #000; */
+}
+.category {
+  color: lightgray;
+}
+.intro h2 {
+  color: #5f4269;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.card {
+  background-color: white;
+  box-shadow: 0rem 0.5rem 0.5rem lightgray;
+}
+.card .card-content {
+  padding: 2rem 1rem;
+}
+.card .card-content h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.card .card-img img {
+  width: 100%;
+}
+.card .card-content li {
+  margin: 0.5rem 0rem;
 }
