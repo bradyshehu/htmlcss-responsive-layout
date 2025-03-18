@@ -115,6 +115,7 @@ footer {
 }
 .info {
   text-align: center;
+  padding: 1rem;
 }
 .upper-links p {
   line-height: 2rem;
@@ -180,7 +181,6 @@ footer {
     text-transform: uppercase;
   }
   .info {
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
     text-align: start;
