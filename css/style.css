@@ -52,6 +52,9 @@ main {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+.food-info {
+  display: none;
+}
 .card {
   background-color: white;
   box-shadow: 0rem 0.5rem 0.5rem lightgray;
@@ -137,9 +140,10 @@ footer {
   }
   .intro h2 {
     font-size: 2.5rem;
+    display: inline-block;
   }
-  .intro h2::after {
-    content: " (Dolce Tradizionale)";
+  .food-info {
+    display: inline-block;
   }
   .card .card-content li {
     display: inline-block;
